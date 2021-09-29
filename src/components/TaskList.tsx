@@ -43,6 +43,7 @@ export function TaskList() {
     const updatedTasks = tasks.filter( (task) => task.id != id )
     setTasks(updatedTasks)
   }
+  
 
   return (
     <section className="task-list container">
